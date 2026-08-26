@@ -45,7 +45,7 @@ dotnet restore
 
 ## Testando as quatro operações de banco
 
-Ao iniciar, o programa executa o ETL completo e em seguida abre um modo interativo. O banco é em memória, então a conexão precisa permanecer aberta — por isso as operações são feitas dentro da mesma sessão.
+Ao iniciar, o programa executa o ETL completo e em seguida abre um modo interativo. O banco é em memória, então a conexão precisa permanecer aberta por isso as operações são feitas dentro da mesma sessão.
 
 ### 1. Inserir
 
@@ -84,7 +84,7 @@ Remove um cliente a partir do e-mail:
 > delete joao.alves@gmail.com
 ```
 
-Confirme com `list` — a contagem diminui e o cliente desaparece da listagem.
+Confirme com `list` a contagem diminui e o cliente desaparece da listagem.
 
 ### Encerrar
 
