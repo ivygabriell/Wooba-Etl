@@ -5,8 +5,6 @@ namespace WoobaEtl.Infrastructure;
 
 public class CsvCustomerReader : ICustomerReader
 {
-
-
     public IReadOnlyList<RawCustomer> ReadAll(string filePath)
     {
         var csvLines = File.ReadAllLines(filePath);
@@ -19,12 +17,7 @@ public class CsvCustomerReader : ICustomerReader
 
             var rawCustomer = new RawCustomer(fields[0], fields[1], fields[2], fields[3], fields[4], fields[5]);
             rawCustomers.Add(rawCustomer);
-            
         }
         return rawCustomers;
-
     }
-    
-    
-
 }
