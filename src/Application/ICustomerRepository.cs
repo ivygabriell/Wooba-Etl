@@ -1,6 +1,5 @@
 using WoobaEtl.Domain;
 
-// teste
 
 namespace WoobaEtl.Application;
 
