@@ -170,13 +170,6 @@ wooba-etl/
 
 As dependências apontam sempre para dentro: `Program` → `Infrastructure` → `Application` → `Domain`. O domínio não conhece nenhuma camada externa.
 
----
-
-## Limitações conhecidas
-
-- Campos contendo vírgula dentro de aspas não são tratados. O CSV de exemplo não possui esse caso.
-- Linhas com menos de seis campos não são tratadas explicitamente.
-- Os dados não persistem entre execuções, por decisão de projeto: o desafio especifica SQLite em memória.
 
 ---
 
