@@ -41,13 +41,6 @@ As dependências são restauradas automaticamente pelo `dotnet run`. Se preferir
 ```bash
 dotnet restore
 ```
-
-O programa lê `data/customer_lot_a.csv` por padrão. Para usar outro arquivo:
-
-```bash
-dotnet run -- caminho/para/outro-arquivo.csv
-```
-
 ---
 
 ## Testando as quatro operações de banco
