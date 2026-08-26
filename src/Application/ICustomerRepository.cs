@@ -1,5 +1,7 @@
 using WoobaEtl.Domain;
 
+// teste
+
 namespace WoobaEtl.Application;
 
 public interface ICustomerRepository
