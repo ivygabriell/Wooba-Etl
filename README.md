@@ -12,7 +12,7 @@ O processo é dividido em três etapas independentes:
 
 **Tratamento** —> remove espaços sobrando, aceita datas em três formatos diferentes, valida os campos, descarta linhas inválidas e elimina clientes duplicados. Cada descarte é registrado com o motivo.
 
-**Gravação** —> insere os clientes válidos no SQLite através de comandos SQL escritos à mão, sem Entity Framework.
+**Gravação** —> insere os clientes válidos no SQLite através de comandos SQL escritos à mão.
 
 ---
 
